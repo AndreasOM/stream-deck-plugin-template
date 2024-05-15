@@ -1,3 +1,4 @@
+use std::path::Path;
 use std::fs::OpenOptions;
 use std::sync::Arc;
 use tracing_appender::non_blocking::WorkerGuard;
@@ -8,7 +9,7 @@ pub struct Logger {
 }
 
 impl Logger {
-    pub fn new(filename: &str) -> Self {
+    pub fn new(filename: &Path) -> Self {
         let f = OpenOptions::new()
             //.write(true)
             .append(true)

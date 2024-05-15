@@ -5,6 +5,7 @@ edition = "2021"
 
 [dependencies]
 color-eyre = "0.6.3"
+directories = "5.0.1"
 
 stream-deck-plugin = { path = "../stream-deck-plugin" }
 tokio = { version = "1.37.0", features = ["macros", "rt-multi-thread"] }
