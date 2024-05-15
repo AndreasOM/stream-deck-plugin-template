@@ -1,0 +1,44 @@
+{
+	"SDKVersion": 2,
+	"Author": "Template",
+	"CodePath": "stream-deck-plugin-template-apple",
+	"Description": "Template description",
+	"Name": "Omni-Mad - Template",
+	"Icon": "assets/plugin-icon",
+	"URL": "https://github.com/andreasOM/stream-deck-plugin-template",
+	"Version": "0.0.1",
+	"Software": {
+		"MinimumVersion": "5.0"
+	},
+	"OS": [
+		{
+			"Platform": "mac",
+			"MinimumVersion": "10.11"
+		},
+		{
+			"Platform": "windows",
+			"MinimumVersion": "10"
+		}
+	],
+	"Category": "Template",
+	"CategoryIcon": "assets/category-icon",
+	"Actions": [
+		{
+			"Icon": "assets/button_off",
+			"Name": "Trigger Macro",
+			"Controllers": ["Keypad"],
+			"States": [
+				{
+					"Image": "assets/button_off"
+				},
+				{
+					"Image": "assets/button_on"
+				}
+			],
+			"DisableAutomaticStates": true,
+			"Tooltip": "This will do nothing",
+			"UUID": "local.change-me.template.button",
+			"PropertyInspectorPath": "actions/button_property_inspector.html"
+		}
+	]
+}

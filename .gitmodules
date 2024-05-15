@@ -1,0 +1,3 @@
+[submodule "local.change-me.template.sdPlugin/libs"]
+	path = local.change-me.template.sdPlugin/libs
+	url = git@github.com:elgatosf/streamdeck-javascript-sdk.git
